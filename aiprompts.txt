@@ -1,0 +1,12 @@
+create a website in html and css that follows these parameters:
+grey to white background
+header with navigational tools and space for a logo image
+body prepped to accept information
+looks professional
+
+
+
+
+have the logo float to the left of the header
+
+

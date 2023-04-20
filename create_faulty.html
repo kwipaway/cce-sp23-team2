@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create Faulty</title>
+    <title>Document</title>
 </head>
 <body>
     <h1>Create Faculty Member</h1>
@@ -26,78 +26,5 @@
 
         <input type="submit" value="Create">
     </form>
-</body>
-In the form element, set the action attribute to the URL of the server-side script that will process the form data. In this example, we have used process-faculty.php as an example script name.
-
-Also, set the method attribute to post to ensure that the form data is submitted securely.
-
-In the form element, create label elements for each piece of data you want to collect, and corresponding input elements where the user can enter their information. In this example, we have used text input fields, but you can also use other types of input fields like dropdown menus, radio buttons, checkboxes, etc. as needed.
-
-Finally, you can add a submit button at the end of the form, which will allow the user to submit their data to the server. When the user clicks the submit button, the form data will be sent to the server using the POST method. You can add server-side code to process the data and store it in a database if needed.
-
-That's it! With these steps, you can create a basic HTML page to create faculty members using a form. You can style the page as desired using CSS or other styling methods.
-
-
-
-
-Carter
-how to make a create page for faulty in html using the following data - Sam id, first name, last name, college, department , email, office, phone, faultytype, hiredate, mailboxno
-To create a create page for the faculty members using HTML, you can follow these steps:
-
-Start by opening a new HTML file and adding the necessary basic elements like <!DOCTYPE html> and <html> tags.
-
-Inside the html tags, create a head section where you can add a title element to give your page a name. For example:
-
-php
-Copy code
-<head>
-    <title>Create Faculty Member</title>
-</head>
-Next, create a body section where you will add the actual content of the page. Inside the body section, you can create a form element to collect data from the user. For example:
-
-php
-Copy code
-<body>
-    <h1>Create Faculty Member</h1>
-    <form action="process-faculty.php" method="post">
-        <label for="sam-id">Sam ID:</label>
-        <input type="text" id="sam-id" name="sam-id"><br>
-
-        <label for="first-name">First Name:</label>
-        <input type="text" id="first-name" name="first-name"><br>
-
-        <label for="last-name">Last Name:</label>
-        <input type="text" id="last-name" name="last-name"><br>
-
-        <label for="college">College:</label>
-        <input type="text" id="college" name="college"><br>
-
-        <label for="department">Department:</label>
-        <input type="text" id="department" name="department"><br>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br>
-
-        <label for="office">Office:</label>
-        <input type="text" id="office" name="office"><br>
-
-        <label for="phone">Phone:</label>
-        <input type="text" id="phone" name="phone"><br>
-
-        <label for="faculty-type">Faculty Type:</label>
-        <select id="faculty-type" name="faculty-type">
-            <option value="Full Time">Full Time</option>
-            <option value="Part Time">Part Time</option>
-        </select><br>
-
-        <label for="hire-date">Hire Date:</label>
-        <input type="date" id="hire-date" name="hire-date"><br>
-
-        <label for="mailbox-no">Mailbox Number:</label>
-        <input type="text" id="mailbox-no" name="mailbox-no"><br>
-
-        <input type="submit" value="Create">
-    </form>
-    
 </body>
 </html>

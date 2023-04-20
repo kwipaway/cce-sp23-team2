@@ -7,7 +7,7 @@
     <title>CREATE</title>
 </head>
 <body>
-    <h1>Faculty Member</h1>
+    <h1>Create Faculty Member</h1>
     <form action="process-faculty.php" method="post">
         <label for="sam-id">Sam ID:</label>
         <input type="text" id="sam-id" name="sam-id"><br>
@@ -23,6 +23,27 @@
 
         <label for="department">Department:</label>
         <input type="text" id="department" name="department"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="office">Office:</label>
+        <input type="text" id="office" name="office"><br>
+
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone"><br>
+
+        <label for="faculty-type">Faculty Type:</label>
+        <select id="faculty-type" name="faculty-type">
+            <option value="Full Time">Full Time</option>
+            <option value="Part Time">Part Time</option>
+        </select><br>
+
+        <label for="hire-date">Hire Date:</label>
+        <input type="date" id="hire-date" name="hire-date"><br>
+
+        <label for="mailbox-no">Mailbox Number:</label>
+        <input type="text" id="mailbox-no" name="mailbox-no"><br>
 
         <input type="submit" value="Create">
     </form>

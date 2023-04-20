@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Create Meeting</h1>
+    <form action="process-meeting.php" method="post">
+        <label for="meeting-id">Meeting ID:</label>
+        <input type="text" id="meeting-id" name="meeting-id"><br>
+
+        <label for="meeting-name">Meeting Name:</label>
+        <input type="text" id="meeting-name" name="meeting-name"><br>
+
+        <label for="meeting-date">Meeting Date:</label>
+        <input type="date" id="meeting-date" name="meeting-date"><br>
+
+        <label for="meeting-description">Meeting Description:</label>
+        <textarea id="meeting-description" name="meeting-description"></textarea><br>
+
+        <label for="meeting-location">Meeting Location:</label>
+        <input type="text" id="meeting-location" name="meeting-location"><br>
+
+        <input type="submit" value="Create">
+    </form>
+</body>
+</html>

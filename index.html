@@ -8,13 +8,45 @@
     <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-    <nav>
-        <ul>
-          <li><a href="create.html">Create</a></li>
-          <li><a href="retrieve.html">Retrieve</a></li>
-          <li><a href="update.html">Update</a></li>
-          <li><a href="delete.html">Delete</a></li>
-        </ul>
-      </nav>      
+    <!DOCTYPE html>
+<html>
+<head>
+	<title>Update Faculty Record</title>
+</head>
+<body>
+	<h1>Update Faculty Record</h1>
+	<form action="update_faculty.php" method="post">
+		<label for="sam_id">SamID:</label>
+		<input type="text" id="sam_id" name="sam_id" required><br><br>
+		<label for="first_name">First Name:</label>
+		<input type="text" id="first_name" name="first_name" required><br><br>
+		<label for="last_name">Last Name:</label>
+		<input type="text" id="last_name" name="last_name" required><br><br>
+		<label for="college">College:</label>
+		<input type="text" id="college" name="college" required><br><br>
+		<label for="department">Department:</label>
+		<input type="text" id="department" name="department" required><br><br>
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required><br><br>
+		<label for="office">Office:</label>
+		<input type="text" id="office" name="office" required><br><br>
+		<label for="phone">Phone:</label>
+		<input type="text" id="phone" name="phone" required><br><br>
+		<label for="faculty_type">Faculty Type:</label>
+		<select id="faculty_type" name="faculty_type">
+			<option value="tenured">Tenured</option>
+			<option value="non-tenured">Non-Tenured</option>
+			<option value="adjunct">Adjunct</option>
+			<option value="visiting">Visiting</option>
+		</select><br><br>
+		<label for="hire_date">Hire Date:</label>
+		<input type="date" id="hire_date" name="hire_date" required><br><br>
+		<label for="mailbox_no">Mailbox No:</label>
+		<input type="text" id="mailbox_no" name="mailbox_no"><br><br>
+		<input type="submit" value="Update">
+	</form>
+</body>
+</html>
+   
 </body>
 </html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Event</title>
+</head>
+<body>
+    <h1>Create Event</h1>
+    <form action="process-event.php" method="post">
+        <label for="event-id">Event ID:</label>
+        <input type="text" id="event-id" name="event-id"><br>
+
+        <label for="event-name">Event Name:</label>
+        <input type="text" id="event-name" name="event-name"><br>
+
+        <label for="event-date">Event Date:</label>
+        <input type="date" id="event-date" name="event-date"><br>
+
+        <label for="event-description">Event Description:</label>
+        <textarea id="event-description" name="event-description"></textarea><br>
+
+        <label for="event-location">Event Location:</label>
+        <input type="text" id="event-location" name="event-location"><br>
+
+        <input type="submit" value="Create">
+    </form>
+
+    <h1>Faulty Award Form</h1>
+    <form action="process-award.php" method="post">
+        <label for="sam-id">Sam ID:</label>
+        <input type="text" id="sam-id" name="sam-id"><br>
+
+        <label for="award-id">Award ID:</label>
+        <input type="text" id="award-id" name="award-id"><br>
+
+        <label for="award-date">Award Date Received:</label>
+        <input type="date" id="award-date" name="award-date"><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+
+</html>

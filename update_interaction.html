@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Relationship Management</title>
+    <link rel="stylesheet" href="update_faculty.css">
+</head>
+<body>
+	<h1>Update Interaction Record</h1>
+	<form action="update_interaction.php" method="post">
+		<label for="interaction_id">Interaction ID:</label>
+		<input type="text" id="interaction_id" name="interaction_id" required><br><br>
+		<label for="date">Date:</label>
+		<input type="date" id="date" name="date" required><br><br>
+		<label for="time">Time:</label>
+		<input type="time" id="time" name="time" required><br><br>
+		<label for="location">Location:</label>
+		<input type="text" id="location" name="location" required><br><br>
+		<label for="description">Description:</label>
+		<textarea id="description" name="description" rows="4" cols="50" required></textarea><br><br>
+		<label for="faculty_id">Faculty ID:</label>
+		<input type="text" id="faculty_id" name="faculty_id" required><br><br>
+		<label for="event_id">Event ID:</label>
+		<input type="text" id="event_id" name="event_id" required><br><br>
+		<label for="meeting_id">Meeting ID:</label>
+		<input type="text" id="meeting_id" name="meeting_id" required><br><br>
+		<input type="submit" value="Update">
+	</form>
+</body>
+</html>

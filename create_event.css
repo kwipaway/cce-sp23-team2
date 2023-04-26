@@ -1,0 +1,40 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F5F5F5;
+  }
+  
+  form {
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3E8E41;
+  }  

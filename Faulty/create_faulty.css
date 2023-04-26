@@ -5,6 +5,9 @@ form {
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
 /* Style the labels */
@@ -39,5 +42,5 @@ input[type="submit"] {
 
 /* Style the form submit button on hover */
 input[type="submit"]:hover {
-  background-color: blue;
+  background-color: darkblue;
 }

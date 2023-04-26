@@ -29,7 +29,7 @@ form {
   
   /* Style the form submit button */
   input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: blue;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -39,6 +39,6 @@ form {
   
   /* Style the form submit button on hover */
   input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: blue;
   }
   

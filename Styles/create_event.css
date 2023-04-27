@@ -1,5 +1,4 @@
 /* Form Styles */
-
 form {
   max-width: 600px;
   margin: 0 auto;
@@ -9,7 +8,6 @@ form {
 }
 
 /* Label Styles */
-
 label {
   display: block;
   margin-bottom: 10px;
@@ -17,38 +15,50 @@ label {
 }
 
 /* Input Styles */
-
 input[type="text"],
 input[type="date"],
 textarea {
   display: block;
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border: none;
+  border-bottom: 2px solid #ccc;
   box-sizing: border-box;
   margin-bottom: 20px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #0066cc;
 }
 
 /* Submit Button Styles */
-
 input[type="submit"] {
-  background-color: blue;
+  background-color: #0066cc;
   color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 input[type="submit"]:hover {
-  background-color: #0066cc;
+  background-color: #0052a3;
 }
 
 /* Center Heading Styles */
-
 h1 {
   text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: bold;
+  color: #0066cc;
 }
 
 body {

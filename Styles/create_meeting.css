@@ -1,61 +1,44 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f7f7f7;
-}
-
-h1 {
-  text-align: center;
-  font-size: 2rem;
-  margin-top: 50px;
-}
-
-form {
-  width: 100%;
-  max-width: 500px;
-  margin: 0 auto;
-  padding: 30px;
-  border-radius: 8px;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.form-control {
+.container {
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin-top: 2rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
 }
 
 label {
-  font-size: 1.1rem;
-  font-weight: bold;
-  margin-bottom: 5px;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
-input,
-select,
-textarea {
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  font-size: 1rem;
-  outline: none;
-}
-
-input:focus,
-select:focus,
-textarea:focus {
-  border-color: blue;
-}
-
-input[type="submit"] {
-  background-color: blue;
-  color: #fff;
+input[type="text"],
+textarea,
+select {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
   border: none;
-  padding: 12px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: #007aff;
+  width: 100%;
+  max-width: 30rem;
 }

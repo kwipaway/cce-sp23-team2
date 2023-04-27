@@ -12,7 +12,7 @@ h1 {
 form {
   width: 100%;
   max-width: 500px;
-  margin: 50px auto;
+  margin: 0 auto;
   padding: 30px;
   border-radius: 8px;
   background-color: #fff;
@@ -39,7 +39,6 @@ textarea {
   border: 1px solid #ccc;
   font-size: 1rem;
   outline: none;
-  margin-bottom: 10px;
 }
 
 input:focus,

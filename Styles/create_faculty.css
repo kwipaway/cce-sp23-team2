@@ -31,8 +31,8 @@ label {
   margin-bottom: 5px;
 }
 
-input[type="text"],
-input[type="date"],
+input,
+select,
 textarea {
   padding: 10px;
   border-radius: 5px;

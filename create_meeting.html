@@ -8,35 +8,55 @@
     <title>Create Meeting</title>
 </head>
 <body>
-    <h1>Create Meeting</h1>
-    <form action="process-meeting.php" method="post">
-        <label for="meeting-id">Meeting ID:</label>
-        <input type="text" id="meeting-id" name="meeting-id"><br>
+    <div class="container">
+        <h1 class="title">Create Meeting</h1>
+        <form class="form" action="process-meeting.php" method="post">
+            <div class="form-group">
+                <label for="meeting-id">Meeting ID:</label>
+                <input type="text" id="meeting-id" name="meeting-id">
+            </div>
 
-        <label for="meeting-name">Meeting Name:</label>
-        <input type="text" id="meeting-name" name="meeting-name"><br>
+            <div class="form-group">
+                <label for="meeting-name">Meeting Name:</label>
+                <input type="text" id="meeting-name" name="meeting-name">
+            </div>
 
-        <label for="meeting-date">Meeting Date:</label>
-        <input type="date" id="meeting-date" name="meeting-date"><br>
+            <div class="form-group">
+                <label for="meeting-date">Meeting Date:</label>
+                <input type="date" id="meeting-date" name="meeting-date">
+            </div>
 
-        <label for="meeting-description">Meeting Description:</label>
-        <textarea id="meeting-description" name="meeting-description"></textarea><br>
+            <div class="form-group">
+                <label for="meeting-description">Meeting Description:</label>
+                <textarea id="meeting-description" name="meeting-description"></textarea>
+            </div>
 
-        <label for="meeting-location">Meeting Location:</label>
-        <input type="text" id="meeting-location" name="meeting-location"><br>
+            <div class="form-group">
+                <label for="meeting-location">Meeting Location:</label>
+                <input type="text" id="meeting-location" name="meeting-location">
+            </div>
 
-        <input type="submit" value="Create">
-
-        <h2>Create Faculty Meeting</h2>
-        <form action="process-faculty-meeting.php" method="post">
-            <label for="sam-id">SamID:</label>
-            <input type="text" id="sam-id" name="sam-id"><br>
-
-            <label for="faculty-meeting-id">Meeting ID:</label>
-            <input type="text" id="faculty-meeting-id" name="faculty-meeting-id"><br>
-
-            <input type="submit" value="Create Faculty Meeting">
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Create</button>
+            </div>
         </form>
-    </form>
+
+        <h2 class="title">Create Faculty Meeting</h2>
+        <form class="form" action="process-faculty-meeting.php" method="post">
+            <div class="form-group">
+                <label for="sam-id">SamID:</label>
+                <input type="text" id="sam-id" name="sam-id">
+            </div>
+
+            <div class="form-group">
+                <label for="faculty-meeting-id">Meeting ID:</label>
+                <input type="text" id="faculty-meeting-id" name="faculty-meeting-id">
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Create Faculty Meeting</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>

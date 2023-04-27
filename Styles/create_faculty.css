@@ -48,12 +48,14 @@ textarea:focus {
 }
 
 input[type="submit"] {
-  background-color: blue;
-  color: #fff;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: green;
+  color: white;
   border: none;
-  padding: 12px 20px;
   border-radius: 5px;
-  cursor: pointer;
 }
 
 input[type="submit"]:hover {

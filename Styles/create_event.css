@@ -9,7 +9,7 @@ h1 {
   margin-top: 50px;
 }
 
-form {
+.form {
   width: 100%;
   max-width: 500px;
   margin: 0 auto;
@@ -47,15 +47,9 @@ textarea:focus {
   border-color: blue;
 }
 
-input[type="submit"] {
+.submit-btn {
   background-color: blue;
   color: #fff;
   border: none;
-  padding: 12px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: #007aff;
+  padding: 12
 }

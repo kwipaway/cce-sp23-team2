@@ -1,59 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create Award</title>
-    <link rel="stylesheet" href="styles/create_award.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Create Award</title>
+	<link rel="stylesheet" href="styles/create_award" />
 </head>
 <body>
-    <h1>Create Award</h1>
-    <form action="process-award.php" method="post">
-        <div class="form-control">
-            <label for="award-id">Award ID:</label>
-            <input type="text" id="award-id" name="award-id">
-        </div>
-
-        <div class="form-control">
-            <label for="award-title">Award Title:</label>
-            <input type="text" id="award-title" name="award-title">
-        </div>
-
-        <div class="form-control">
-            <label for="award-organization">Award Organization:</label>
-            <input type="text" id="award-organization" name="award-organization">
-        </div>
-
-        <div class="form-control">
-            <label for="award-description">Award Description:</label>
-            <textarea id="award-description" name="award-description"></textarea>
-        </div>
-
-        <div class="form-control">
-            <label for="faculty-samid">Faculty SAM ID:</label>
-            <input type="text" id="faculty-samid" name="faculty-samid">
-        </div>
-
-        <fieldset>
-            <legend>Award Date</legend>
-            <div class="form-control">
-                <label for="award-date-year">Year:</label>
-                <input type="text" id="award-date-year" name="award-date-year">
-            </div>
-
-            <div class="form-control">
-                <label for="award-date-month">Month:</label>
-                <input type="text" id="award-date-month" name="award-date-month">
-            </div>
-
-            <div class="form-control">
-                <label for="award-date-day">Day:</label>
-                <input type="text" id="award-date-day" name="award-date-day">
-            </div>
-        </fieldset>
-
-        <input type="submit" value="Create">
-    </form>
+	<header>
+		<h1>Create Award</h1>
+	</header>
+	<main>
+		<div class="form-container">
+			<form action="" method="POST">
+				<div class="form-control">
+					<label for="award-id">Award ID:</label>
+					<input type="text" id="award-id" name="award-id" required>
+				</div>
+				<div class="form-control">
+					<label for="award-title">Award Title:</label>
+					<input type="text" id="award-title" name="award-title" required>
+				</div>
+				<div class="form-control">
+					<label for="award-organization">Award Organization:</label>
+					<input type="text" id="award-organization" name="award-organization" required>
+				</div>
+				<div class="form-control">
+					<label for="award-description">Award Description:</label>
+					<textarea id="award-description" name="award-description" required></textarea>
+				</div>
+				<input type="submit" value="Create Award">
+			</form>
+		</div>
+		<div class="form-container">
+			<form action="" method="POST">
+				<div class="form-control">
+					<label for="sam-id">Sam ID:</label>
+					<input type="text" id="sam-id" name="sam-id" required>
+				</div>
+				<div class="form-control">
+					<label for="award-id">Award ID:</label>
+					<input type="text" id="award-id" name="award-id" required>
+				</div>
+				<div class="form-control">
+					<label for="award-date">Award Date Received:</label>
+					<input type="date" id="award-date" name="award-date" required>
+				</div>
+				<input type="submit" value="Create Award for Faculty Member">
+			</form>
+		</div>
+	</main>
 </body>
 </html>

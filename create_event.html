@@ -9,34 +9,48 @@
 </head>
 <body>
     <h1>Create Event</h1>
-    <form action="process-event.php" method="post">
-        <label for="event-id">Event ID:</label>
-        <input type="text" id="event-id" name="event-id"><br>
+    <form action="process-event.php" method="post" class="form">
+        <div class="form-control">
+            <label for="event-id">Event ID:</label>
+            <input type="text" id="event-id" name="event-id">
+        </div>
 
-        <label for="event-name">Event Name:</label>
-        <input type="text" id="event-name" name="event-name"><br>
+        <div class="form-control">
+            <label for="event-name">Event Name:</label>
+            <input type="text" id="event-name" name="event-name">
+        </div>
 
-        <label for="event-date">Event Date:</label>
-        <input type="date" id="event-date" name="event-date"><br>
+        <div class="form-control">
+            <label for="event-date">Event Date:</label>
+            <input type="date" id="event-date" name="event-date">
+        </div>
 
-        <label for="event-description">Event Description:</label>
-        <textarea id="event-description" name="event-description"></textarea><br>
+        <div class="form-control">
+            <label for="event-description">Event Description:</label>
+            <textarea id="event-description" name="event-description"></textarea>
+        </div>
 
-        <label for="event-location">Event Location:</label>
-        <input type="text" id="event-location" name="event-location"><br>
+        <div class="form-control">
+            <label for="event-location">Event Location:</label>
+            <input type="text" id="event-location" name="event-location">
+        </div>
 
-        <input type="submit" value="Create">
+        <input type="submit" value="Create" class="submit-btn">
     </form>
 
-    <h1>Add Faulty to Event</h1>
-    <form action="process-faultyevent.php" method="post">
-        <label for="sam-id">Sam ID:</label>
-        <input type="text" id="sam-id" name="sam-id"><br>
+    <h1>Add Faculty to Event</h1>
+    <form action="process-faultyevent.php" method="post" class="form">
+        <div class="form-control">
+            <label for="sam-id">Sam ID:</label>
+            <input type="text" id="sam-id" name="sam-id">
+        </div>
 
-        <label for="event-id">Event ID:</label>
-        <input type="text" id="event-id" name="event-id"><br>
+        <div class="form-control">
+            <label for="event-id">Event ID:</label>
+            <input type="text" id="event-id" name="event-id">
+        </div>
 
-        <input type="submit" value="Add Faulty">
+        <input type="submit" value="Add Faculty" class="submit-btn">
     </form>
 </body>
 </html>

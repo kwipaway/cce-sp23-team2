@@ -1,23 +1,23 @@
-/* Style the form */
+/* Form Styles */
+
 form {
   max-width: 600px;
   margin: 0 auto;
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
 }
 
-/* Style the labels */
+/* Label Styles */
+
 label {
   display: block;
   margin-bottom: 10px;
   font-weight: bold;
 }
 
-/* Style the form inputs */
+/* Input Styles */
+
 input[type="text"],
 input[type="date"],
 textarea {
@@ -30,7 +30,8 @@ textarea {
   margin-bottom: 20px;
 }
 
-/* Style the form submit button */
+/* Submit Button Styles */
+
 input[type="submit"] {
   background-color: blue;
   color: white;
@@ -40,7 +41,16 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* Style the form submit button on hover */
 input[type="submit"]:hover {
-  background-color: darkblue;
+  background-color: #0066cc;
+}
+
+/* Center Heading Styles */
+
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: #f2f7ff;
 }

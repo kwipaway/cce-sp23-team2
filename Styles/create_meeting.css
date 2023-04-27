@@ -17,6 +17,7 @@
   align-items: center;
   width: 80%;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .form-group {
@@ -24,7 +25,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 1rem 0;
 }
 
 label {

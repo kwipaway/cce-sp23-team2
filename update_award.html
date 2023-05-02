@@ -7,7 +7,30 @@
     <title>Update Award</title>
     <link rel="stylesheet" href="update_award.css">
 </head>
-<body>
-   <h1>Update Award</h1>
+<body></body>
+        <h1>Update Award</h1>
+        <form action="update_award.php" method="post">
+            <label for="award_id">Award ID:</label>
+            <input type="text" id="award_id" name="award_id" required><br><br>
+            <label for="award_name">Award Name:</label>
+            <input type="text" id="award_name" name="award_name" required><br><br>
+            <label for="award_description">Award Description:</label>
+            <textarea id="award_description" name="award_description" required></textarea><br><br>
+            <label for="award_type">Award Type:</label>
+            <select id="award_type" name="award_type" required>
+                <option value="">Select an option</option>
+                <option value="Scholarship">Scholarship</option>
+                <option value="Fellowship">Fellowship</option>
+                <option value="Grant">Grant</option>
+                <option value="Prize">Prize</option>
+            </select><br><br>
+            <label for="award_date">Award Date:</label>
+            <input type="date" id="award_date" name="award_date" required><br><br>
+            <label for="faculty_id">Faculty ID:</label>
+            <input type="text" id="faculty_id" name="faculty_id" required><br><br>
+            <input type="submit" value="Update Award">
+        </form>
+    </body>
+    </html>
 </body>
 </html>

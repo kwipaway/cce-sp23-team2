@@ -1,15 +1,16 @@
-body {
+.make-black-body {
   font-family: Arial, sans-serif;
   background-color: #f7f7f7;
 }
 
-h1 {
+header h1 {
   text-align: center;
   font-size: 2rem;
   margin-top: 50px;
+  background-color: transparent;
 }
 
-.form {
+form {
   width: 100%;
   max-width: 500px;
   margin: 0 auto;
@@ -47,9 +48,56 @@ textarea:focus {
   border-color: blue;
 }
 
-.submit-btn {
+input[type="submit"] {
   background-color: blue;
   color: #fff;
   border: none;
-  padding: 12
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #007aff;
+}
+
+button:hover {
+  color: #fff;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.black-title {
+  text-align: center;
+  padding: 10px;
+  color: black;
+}
+
+.home-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #f2f2f2;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.home-btn:hover {
+  background-color: #ddd;
+}
+
+.form-title {
+  text-align: center;
 }

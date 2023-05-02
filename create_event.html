@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles/create_event.css">
 </head>
 <body>
-    <h1>Create Event</h1>
+    <h1 class="form-title">Create Event</h1>
     <form action="process-event.php" method="post" class="form">
         <div class="form-control">
             <label for="event-id">Event ID:</label>
@@ -38,7 +38,7 @@
         <input type="submit" value="Create" class="submit-btn">
     </form>
 
-    <h1>Add Faculty to Event</h1>
+    <h1 class="form-title">Add Faculty to Event</h1>
     <form action="process-faultyevent.php" method="post" class="form">
         <div class="form-control">
             <label for="sam-id">Sam ID:</label>
@@ -52,5 +52,7 @@
 
         <input type="submit" value="Add Faculty" class="submit-btn">
     </form>
+
+    <button class="home-btn" onclick="window.location.href='create_home.html'">Back to Main Menu</button>
 </body>
 </html>

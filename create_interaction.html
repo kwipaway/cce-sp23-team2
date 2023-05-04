@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CREATE Interaction</title>
+    <link rel="stylesheet" href="styles/create_interaction.css" />
+  </head>
+  <body>
+    <h1>Create Interaction</h1>
+    <form action="process-interaction.php" method="post">
+      <div class="form-control">
+        <label for="interaction-id">Interaction ID:</label>
+        <input type="text" id="interaction-id" name="interaction-id" />
+      </div>
+
+      <div class="form-control">
+        <label for="sam-id">Sam ID:</label>
+        <input type="text" id="sam-id" name="sam-id" />
+      </div>
+
+      <div class="form-control">
+        <label for="interaction-type">Interaction Type:</label>
+        <select id="interaction-type" name="interaction-type">
+          <option value="Email">Email</option>
+          <option value="Phone Call">Phone Call</option>
+          <option value="Meeting">Meeting</option>
+        </select>
+      </div>
+
+      <div class="form-control">
+        <label for="interaction-date">Interaction Date:</label>
+        <input type="date" id="interaction-date" name="interaction-date" />
+      </div>
+
+      <div class="form-control">
+        <label for="interaction-description">Interaction Description:</label>
+        <textarea id="interaction-description" name="interaction-description"></textarea>
+      </div>
+
+      <div class="form-control">
+        <input type="submit" value="Create" />
+      </div>
+    </form>
+    <button class="home-btn" onclick="window.location.href='create_home.html'">Back to Main Menu</button>
+  </body>
+</html>

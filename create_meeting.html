@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/create_meeting.css" />
+    <title>Create Meeting</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Create Meeting</h1>
+        <form class="form" action="process-meeting.php" method="post">
+            <div class="form-group">
+                <label for="meeting-id">Meeting ID:</label>
+                <input type="text" id="meeting-id" name="meeting-id">
+            </div>
+
+            <div class="form-group">
+                <label for="meeting-name">Meeting Name:</label>
+                <input type="text" id="meeting-name" name="meeting-name">
+            </div>
+
+            <div class="form-group">
+                <label for="meeting-date">Meeting Date:</label>
+                <input type="date" id="meeting-date" name="meeting-date">
+            </div>
+
+            <div class="form-group">
+                <label for="meeting-description">Meeting Description:</label>
+                <textarea id="meeting-description" name="meeting-description"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="meeting-location">Meeting Location:</label>
+                <input type="text" id="meeting-location" name="meeting-location">
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Create</button>
+            </div>
+        </form>
+
+        <h2 class="title">Create Faculty Meeting</h2>
+        <form class="form" action="process-faculty-meeting.php" method="post">
+            <div class="form-group">
+                <label for="sam-id">SamID:</label>
+                <input type="text" id="sam-id" name="sam-id">
+            </div>
+
+            <div class="form-group">
+                <label for="faculty-meeting-id">Meeting ID:</label>
+                <input type="text" id="faculty-meeting-id" name="faculty-meeting-id">
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Create Faculty Meeting</button>
+            </div>
+        </form>
+        <button class="home-btn" onclick="window.location.href='create_home.html'">Back to Main Menu</button>
+    </div>
+</body>
+</html>

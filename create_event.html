@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Event</title>
+    <link rel="stylesheet" href="styles/create_event.css">
+</head>
+<body>
+    <h1 class="form-title">Create Event</h1>
+    <form action="process-event.php" method="post" class="form">
+        <div class="form-control">
+            <label for="event-id">Event ID:</label>
+            <input type="text" id="event-id" name="event-id">
+        </div>
+
+        <div class="form-control">
+            <label for="event-name">Event Name:</label>
+            <input type="text" id="event-name" name="event-name">
+        </div>
+
+        <div class="form-control">
+            <label for="event-date">Event Date:</label>
+            <input type="date" id="event-date" name="event-date">
+        </div>
+
+        <div class="form-control">
+            <label for="event-description">Event Description:</label>
+            <textarea id="event-description" name="event-description"></textarea>
+        </div>
+
+        <div class="form-control">
+            <label for="event-location">Event Location:</label>
+            <input type="text" id="event-location" name="event-location">
+        </div>
+
+        <input type="submit" value="Create" class="submit-btn">
+    </form>
+
+    <h1 class="form-title">Add Faculty to Event</h1>
+    <form action="process-faultyevent.php" method="post" class="form">
+        <div class="form-control">
+            <label for="sam-id">Sam ID:</label>
+            <input type="text" id="sam-id" name="sam-id">
+        </div>
+
+        <div class="form-control">
+            <label for="event-id">Event ID:</label>
+            <input type="text" id="event-id" name="event-id">
+        </div>
+
+        <input type="submit" value="Add Faculty" class="submit-btn">
+    </form>
+
+    <button class="home-btn" onclick="window.location.href='create_home.html'">Back to Main Menu</button>
+</body>
+</html>

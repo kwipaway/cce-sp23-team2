@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Faculty</title>
+    <link rel="stylesheet" href="styles/update_faculty.css">
+</head>
+<body>
+	<h1>Update Faculty Record</h1>
+	<form action="update_faculty.php" method="post">
+		<label for="sam_id">SamID:</label>
+		<input type="text" id="sam_id" name="sam_id" required><br><br>
+		<label for="first_name">First Name:</label>
+		<input type="text" id="first_name" name="first_name" required><br><br>
+		<label for="last_name">Last Name:</label>
+		<input type="text" id="last_name" name="last_name" required><br><br>
+		<label for="college">College:</label>
+        <select id="college" name="college" required>
+            <option value="">Select College</option>
+            <option value="College of Arts and Media">College of Arts and Media</option>
+            <option value="College of Business Administration">College of Business Administration/option>
+            <option value="College of Criminal Justice">College of Criminal Justice</option>
+            <option value="College of Education">College of Education</option>
+            <option value="College of Health Sciences">College of Health Sciences</option>
+            <option value="College of Humanities and Social Sciences">College of Humanities and Social Sciences</option>
+            <option value="College of Science and Engineering Technology">College of Science and Engineering Technology</option>
+          </select>
+		<input type="text" id="college" name="college" required><br><br>
+		<label for="department">Department:</label>
+		<input type="text" id="department" name="department" required><br><br>
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required><br><br>
+		<label for="office">Office:</label>
+		<input type="text" id="office" name="office" required><br><br>
+		<label for="phone">Phone:</label>
+		<input type="text" id="phone" name="phone" required><br><br>
+		<label for="faculty_type">Faculty Type:</label>
+		<select id="faculty_type" name="faculty_type">
+			<option value="tenured">Full Time</option>
+			<option value="non-tenured">Part Time</option>
+		</select><br><br>
+		<label for="hire_date">Hire Date:</label>
+		<input type="date" id="hire_date" name="hire_date" required><br><br>
+		<label for="mailbox_no">Mailbox No:</label>
+		<input type="text" id="mailbox_no" name="mailbox_no"><br><br>
+		<input type="submit" value="Update Faculty">
+	</form>
+</body>
+</html>
+</body>
+</html>
+
+

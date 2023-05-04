@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Meeting</title>
+    <link rel="stylesheet" href="styles/update_meeting.css">
+</head>
+<body>
+	<h1>Update Meeting</h1>
+	<form action="update_meeting.php" method="post">
+		<label for="meeting_id">Meeting ID:</label>
+			<input type="text" id="meeting_id" name="meeting_id" required><br><br>
+		<label for="meeting_date">Meeting Date:</label>
+			<input type="date" id="meeting_date" name="meeting_date" required><br><br>
+			<label for="start_time">Start Time:</label>
+			<input type="time" id="start_time" name="start_time" required><br><br>
+		<label for="end_time">End Time:</label>
+			<input type="time" id="end_time" name="end_time" required><br><br>
+		<label for="location">Location:</label>
+			<input type="text" id="location" name="location" required><br><br>
+		<input type="submit" value="Update Meeting">
+	</form>
+</body>
+</html>

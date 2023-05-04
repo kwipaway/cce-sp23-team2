@@ -1,0 +1,51 @@
+#art1 {
+    padding-bottom: 10px;
+}
+#view {
+    font-size: 40px;
+    font-style: serif; 
+    text-align: center;
+    padding-top: 2em;
+}
+#table1 {
+    font-size:25px;
+    border-collapse: collapse;
+    border: 2px solid blue;
+    margin: 0 auto;
+}
+#table1 caption{
+    text-decoration: underline;
+    font-size: 40px;
+    font-style: serif; 
+    text-align: center;
+    padding-top: 2em;
+}
+#table1 th {
+    border: 2px solid blue;
+    
+}
+#table1 td {
+    border: 2px solid blue;
+    vertical-align: middle;
+}
+#table2 {
+    font-size: 25px;
+    border-collapse: collapse;
+    border: 2px solid blue;
+    margin: 0 auto;
+}
+#table2 caption {
+    text-decoration: underline;
+    font-size: 40px;
+    font-style: serif; 
+    text-align: center;
+    padding-top: 2em;
+}
+#table2 th {
+    border: 2px solid blue;
+    vertical-align: middle;
+}
+#table2 td {
+    border: 2px solid blue;
+    vertical-align: middle;
+}

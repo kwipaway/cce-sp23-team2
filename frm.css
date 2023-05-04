@@ -1,0 +1,49 @@
+
+body h1 {
+    font-size: 60px;
+    font-style: serif; 
+    text-align: center;
+    padding-top: 5%;
+}
+body form {
+    text-align: center;
+    
+}
+body form input{
+    font-size: 30px;
+    width:450px;
+    height: 60px;
+}
+body form button {
+    width: 180px;
+    height: 65px;
+    font-size: 40px;
+}
+#nav_menu {
+    text-align: center;
+   
+}
+#list {
+    display: inline-block;
+}
+#nav_menu ul {
+    list-style-type: none;
+
+}
+/*#nav_menu ul li {
+    float: left;
+    font-style: white;
+}*/
+#nav_menu ul li {
+    float: left;
+    display: block;
+    text-align: center;
+    width: 175px;
+    padding: 1em 0;
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-right: 2px solid white;
+
+}

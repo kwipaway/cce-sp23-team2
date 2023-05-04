@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Delete Database</title>
+    <link rel="stylesheet" href="styles/delete14.css">
+  </head>
+  <body>
+    <div class="header">
+      <h1>Delete Page</h1>
+    </div>
+
+    <div class="tabs">
+      <a href="#" class="tablinks active" onclick="openTab(event, 'faculty')">Faculty</a>
+      <a href="#" class="tablinks" onclick="openTab(event, 'events')">Events</a>
+      <a href="#" class="tablinks" onclick="openTab(event, 'meetings')">Meetings</a>
+      <a href="#" class="tablinks" onclick="openTab(event, 'messages')">Messages</a>
+      
+      <div class="search-container">
+        <input type="text" placeholder="Search...">
+        <button type="submit">Search</button>
+      </div>
+    </div>
+    <div class="az-index">
+      <ul>
+        <li><a href="#A">A</a></li>
+        <li><a href="#B">B</a></li>
+        <li><a href="#C">C</a></li>
+        <li><a href="#D">D</a></li>
+        <li><a href="#E">E</a></li>
+        <li><a href="#F">F</a></li>
+        <li><a href="#G">G</a></li>
+        <li><a href="#H">H</a></li>
+        <li><a href="#I">I</a></li>
+        <li><a href="#J">J</a></li>
+        <li><a href="#K">K</a></li>
+        <li><a href="#L">L</a></li>
+        <li><a href="#M">M</a></li>
+        <li><a href="#N">N</a></li>
+        <li><a href="#O">O</a></li>
+        <li><a href="#P">P</a></li>
+        <li><a href="#Q">Q</a></li>
+        <li><a href="#R">R</a></li>
+        <li><a href="#S">S</a></li>
+        <li><a href="#T">T</a></li>
+        <li><a href="#U">U</a></li>
+        <li><a href="#V">V</a></li>
+        <li><a href="#W">W</a></li>
+        <li><a href="#X">X</a></li>
+        <li><a href="#Y">Y</a></li>
+        <li><a href="#Z">Z</a></li>
+      </ul>
+    </div>
+    <div id="faculty" class="tabcontent" style="display: block;">
+      <ul>
+        <li>Name: Dr. Jane Smith
+          Department: History
+          Email: jsmith@shsu.edu
+          Office: CHSS 340
+          Phone: (936) 294-XXXX
+          Courses Taught: HIST 1301, HIST 1302, HIST 3375<button class="delete-button"><img src="https://www.clipartmax.com/png/small/242-2428212_png-file-delete-icon-png-small.png" alt="Png File - Delete Icon Png Small @clipartmax.com"></li>
+        <li>Name: Dr. John Doe
+          Department: Biology
+          Email: jdoe@shsu.edu
+          Office: LSC 301C
+          Phone: (936) 294-XXXX
+          Courses Taught: BIOL 2401, BIOL 2402, BIOL 4404<button class="delete-button"><img src="https://www.clipartmax.com/png/small/242-2428212_png-file-delete-icon-png-small.png" alt="Png File - Delete Icon Png Small @clipartmax.com"></li>
+        <li>Name: Dr. Sarah Lee
+          Department: Psychology
+          Email: slee@shsu.edu
+          Office: CHSS 210
+          Phone: (936) 294-XXXX
+          Courses Taught: PSYC 2301, PSYC 3331, PSYC 4304<button class="delete-button"><img src="https://www.clipartmax.com/png/small/242-2428212_png-file-delete-icon-png-small.png" alt="Png File - Delete Icon Png Small @clipartmax.com"></li>
+        <li>Name: Dr. Mark Johnson
+          Department: English
+          Email: mjohnson@shsu.edu
+          Office: AB1 205
+          Phone: (936) 294-XXXX
+          Courses Taught: ENGL 1301, ENGL 1302, ENGL 3326<button class="delete-button"><img src="https://www.clipartmax.com/png/small/242-2428212_png-file-delete-icon-png-small.png" alt="Png File - Delete Icon Png Small @clipartmax.com"></li>
+      </ul>
+    </div>
+
+    <div id="events" class="tabcontent">
+      <ul>
+        <li>Title: Bearkat Graduation Ceremony
+          Date: May 14, 2023
+          Time: 10:00am
+          Location: Johnson Coliseum
+          Description: Graduation ceremony for Spring 2023 graduates.<button class="delete-button"><img src="https://www.clipartmax.com/png/small/242-2428212_png-file-delete-icon-png-small.png" alt="Png File - Delete Icon Png Small @clipartmax.com"></li>
+        <li>Title: Bearkat Family Weekend
+          Date: September 16-18, 2023
+          Time: All day
+          Location: Various locations on campus
+          Description: A weekend of fun events and activities for students and their families.<button class="delete-button"><img src="https://www.clipartmax.com/png/small/242-2428212_png-file-delete-icon-png-small.png" alt="Png File - Delete Icon Png Small @clipartmax.com"></li>
+        <li>Title: Bearkat Homecoming Parade
+          Date: October 21, 2023
+          Time: 6:00pm
+          Location: University Ave
+          Description: A parade to celebrate SHSU's Homecoming.<button class="delete-button"><img src="https://www.clipartmax.com/png/small/242-2428212_png-file-delete-icon-png-small.png" alt="Png File - Delete Icon Png Small @clipartmax.com"></li>
+      </ul>
+    </div>
+
+    <div id="meetings" class="tabcontent">
+      <ul>
+        <li>Title: Faculty Senate Meeting
+          Date: May 12, 2023
+          Time: 3:00pm
+          Location: CHSS 310
+          Description: Monthly meeting of the Faculty Senate.<button class="delete-button"><img src="https://www.clipartmax.com/png/small/242-2428212_png-file-delete-icon-png-small.png" alt="Png File - Delete Icon Png Small @clipartmax.com"></li>
+        <li>Title: Department Chair Meeting
+          Date: May 16, 2023
+          Time: 2:00pm
+          Location: AB4 217<button class="delete-button"><img src="https://www.clipartmax.com/png/small/242-2428212_png-file-delete-icon-png-small.png" alt="Png File - Delete Icon Png Small @clipartmax.com"></li>
+        <li>Title: Provost Council Meeting
+          Date: May 19, 2023
+          Time: 10:00am
+          Location: LSC 320
+          Description: Monthly meeting of the Provost Council.<button class="delete-button"><img src="https://www.clipartmax.com/png/small/242-2428212_png-file-delete-icon-png-small.png" alt="Png File - Delete Icon Png Small @clipartmax.com"></li>
+      </ul>
+    </div>
+
+    <div id="messages" class="tabcontent">
+      <ul>
+        <li>Title: Important Graduation Information
+          Sender: Office of the Registrar
+          Date: May 2, 2023
+          Recipients: All graduating students
+          Body: Dear Graduates, please make sure to check your graduation status and order your cap and gown by May 8th. Congratulations on your achievement!<button class="delete-button"><img src="https://www.clipartmax.com/png/small/242-2428212_png-file-delete-icon-png-small.png" alt="Png File - Delete Icon Png Small @clipartmax.com"></li>
+        <li>Title: Reminder: Bearkat Family Weekend
+          Sender: Student Affairs
+          Date: September 14, 2023
+          Recipients: All students and families
+          Body: Don't forget to register for Bearkat Family Weekend! There will be plenty of fun events and activities for everyone.<button class="delete-button"><img src="https://www.clipartmax.com/png/small/242-2428212_png-file-delete-icon-png-small.png" alt="Png File - Delete Icon Png Small @clipartmax.com"></li>
+        <li>Title: Campus Closure Due to Weather
+          Sender: Office of the President
+          Date: February 15, 2023
+          Recipients: All faculty, staff, and students
+          Body: Due to inclement weather, the campus will be closed on February 15th.<button class="delete-button"><img src="https://www.clipartmax.com/png/small/242-2428212_png-file-delete-icon-png-small.png" alt="Png File - Delete Icon Png Small @clipartmax.com"></li>
+        <li>Title: Reminder: Faculty Meeting
+          Sender: Department of Psychology
+          Date: May 9, 2023
+          Recipients: All faculty in the Department of Psychology
+          Body: Just a friendly reminder that our next departmental faculty meeting is scheduled for May 9th at 2:00pm in CHSS 210. We will be discussing upcoming events and important departmental updates. Please make every effort to attend.<button class="delete-button"><img src="https://www.clipartmax.com/png/small/242-2428212_png-file-delete-icon-png-small.png" alt="Png File - Delete Icon Png Small @clipartmax.com"></li>
+      </ul>
+    </div>
+    <script>
+        function openTab(evt, tabName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablink");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(tabName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+      </script>
+</body>

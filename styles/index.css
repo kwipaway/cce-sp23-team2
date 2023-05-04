@@ -1,26 +1,61 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Update Meeting</title>
-    <link rel="stylesheet" href="styles/update_meeting.css">
-</head>
-<body>
-	<h1>Update Meeting</h1>
-	<form action="update_meeting.php" method="post">
-		<label for="meeting_id">Meeting ID:</label>
-			<input type="text" id="meeting_id" name="meeting_id" required><br><br>
-		<label for="meeting_date">Meeting Date:</label>
-			<input type="date" id="meeting_date" name="meeting_date" required><br><br>
-			<label for="start_time">Start Time:</label>
-			<input type="time" id="start_time" name="start_time" required><br><br>
-		<label for="end_time">End Time:</label>
-			<input type="time" id="end_time" name="end_time" required><br><br>
-		<label for="location">Location:</label>
-			<input type="text" id="location" name="location" required><br><br>
-		<input type="submit" value="Update Meeting">
-	</form>
-</body>
-</html>
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: linear-gradient(to bottom, #f2f2f2, #fff);
+  }
+  
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  label {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="time"] {
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  input[type="submit"] {
+    background-color: #0072c6;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #f87f2f;
+  }
+  
